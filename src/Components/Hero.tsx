@@ -8,13 +8,16 @@ function Hero() {
           showThumbs={false} 
           showStatus={false} 
           showIndicators={true}
+          infiniteLoop={true}
+          autoPlay={true}
+          interval={3000}
           className="w-full"
           renderIndicator={(onClickHandler, isSelected, label) => {
             return (
               <button
                 onClick={onClickHandler}
-                className={`w-10 h-1 mx-1  transition-all duration-300 ${
-                  isSelected ? 'bg-[#D4B254]' : 'bg-white'
+                className={`w-10 h-1 mx-1 transition-all duration-300 ${
+                  isSelected ? 'bg-[#D4B254] scale-110' : 'bg-white'
                 }`}
                 aria-label={String(label)}
               />
