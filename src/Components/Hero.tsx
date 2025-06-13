@@ -1,4 +1,3 @@
-import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import headerimage from '../assets/header.png';
@@ -10,7 +9,7 @@ function Hero() {
           showStatus={false} 
           showIndicators={true}
           className="w-full"
-          renderIndicator={(onClickHandler, isSelected, index, label) => {
+          renderIndicator={(onClickHandler, isSelected, label) => {
             return (
               <button
                 onClick={onClickHandler}

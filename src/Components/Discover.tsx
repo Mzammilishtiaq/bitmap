@@ -1,4 +1,3 @@
-import React from 'react'
 import handmadeimage from '../assets/handmade.png'
 function Discover() {
   return (

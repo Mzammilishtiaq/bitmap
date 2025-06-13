@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import {FaFacebookF, FaInstagram, FaShoppingCart, FaTwitter } from 'react-icons/fa';
 
 function Navbar() {

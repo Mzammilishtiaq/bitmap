@@ -1,4 +1,3 @@
-import React from 'react'
 import gallery1 from '../assets/gallery1.png'
 import gallery2 from '../assets/gallery2.png'
 import gallery3 from '../assets/gallery3.png'
