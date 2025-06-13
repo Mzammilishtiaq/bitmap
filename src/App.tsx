@@ -12,7 +12,7 @@ function App() {
     <div className="scroll-smooth">
       <header className="relative w-full overflow-hidden font-sans">
         {/* Main Navigation */}
-        <div className="top-0 left-0 right-0 z-10" style={{position:'fixed', backgroundColor: '#000000'}}>
+        <div className="top-0 left-0 right-0 z-10" style={{position:'fixed'}}>
         <Navbar />
         </div>
         {/* Hero Section */}
