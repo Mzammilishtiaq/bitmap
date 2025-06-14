@@ -27,7 +27,7 @@ function Navbar() {
     }, [lastScrollY]);
   
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-10 p-4 text-white transition-colors duration-300 ${window.scrollY > 2 ? 'bg-black' : 'bg-transparent'}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-10 p-4 text-white transition-colors duration-300 ${bgColor}`}>
           {/* Mobile Menu Button */}
           <div className="lg:hidden flex justify-between items-center">
             <div className="text-3xl font-bold">MK</div>
